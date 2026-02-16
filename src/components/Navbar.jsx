@@ -21,8 +21,8 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
 
           {/* logo */}
-          <Link to="/" className="text-2xl font-bold text-primary-600 dark:text-primary-400">
-            BlogAura
+          <Link to="/">
+            <img src="/Logo-Blogaura.png" alt="BlogAura" className="h-28 object-contain mt-[3px]" />
           </Link>
 
           {/* liens de navigation */}
